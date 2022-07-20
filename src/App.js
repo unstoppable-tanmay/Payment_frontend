@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import React  from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import NoPage from './component/NoPage'
+import Payment from './component/Payment';
+import Nav from './component/Nav';
+import Home from './component/Home'
+import About from './component/About';
+
+import "./component/Media.css"
 
 function App() {
+
+  // React.useEffect(() => {
+  //   window.addEventListener('resize', ()=>{
+  //     console.log(document.body.style.hei = window.innerWidth);
+  //     document.body.style.fontSize = `${window.innerWidth/10}px`;
+  //     document.querySelector('#root').style.fontSize = `${window.innerWidth/10}px`;
+  //   })
+  // })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Nav/>
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/payment" element={<Payment />} />
+          <Route path="*" element={<NoPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

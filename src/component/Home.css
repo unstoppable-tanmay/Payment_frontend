@@ -1,0 +1,115 @@
+.Home{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10vw;
+}
+.home_left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 3rem;
+    margin-left: 5rem;
+}
+.home_logo{
+    width: 50rem;
+    font-size: 10rem;
+    font-weight: 600;
+}
+.home_about{
+    font-size: 1.5rem;
+    width: 45rem;
+    letter-spacing: 1px;
+}
+.home_btn{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    height: 3rem;
+    padding: .5rem 3rem .7rem 3rem;
+    border-radius: .5rem;
+    background: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .1s;
+    text-decoration: none;
+    color: #fff;
+}
+.home_btn:hover{
+    background: #24a0ed;
+}
+.home_right{
+    margin-right: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    filter: drop-shadow(50px 30px 25px rgba(0, 0, 0, 0.3));
+}
+.card{
+    width: 40rem;
+    height: 25rem;
+    border-radius: 2.7rem;
+    box-sizing: border-box;
+    padding: 2rem 2rem 2rem 4rem;
+    position: relative;
+
+    background: rgba( 68, 95, 139, 0.05 );
+    backdrop-filter: blur( 4px );
+    border: 1px solid #ffffff2e;
+    background: linear-gradient(to right ,#595FD1,#878CF4);
+    filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.3));
+}
+.card img{
+    width: 5rem;
+    opacity: .7;
+}
+.credit_chip{
+    position: absolute;
+    width: 2rem;
+    right: 4rem;
+    top: 5rem;
+}
+.credit_no{
+    margin-top: 5rem;
+    font-size: 2rem;
+    letter-spacing: 1.2;
+}
+.validate{
+    width: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-top: 1.4rem;
+    text-align: center;
+}
+.validate_fromtext{
+    font-size: 1rem;
+    margin-top: .4rem;
+}
+.validate_from,.validate_to{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.credit_name{
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+}
+
+
+.hexagon {
+    width: 70em;
+    height: 70em;
+    background: teal;
+    -webkit-clip-path: polygon(47.5% 5.66987%, 48.2899% 5.30154%, 49.13176% 5.07596%, 50% 5%, 50.86824% 5.07596%, 51.7101% 5.30154%, 52.5% 5.66987%, 87.14102% 25.66987%, 87.85495% 26.16978%, 88.47124% 26.78606%, 88.97114% 27.5%, 89.33948% 28.2899%, 89.56505% 29.13176%, 89.64102% 30%, 89.64102% 70%, 89.56505% 70.86824%, 89.33948% 71.7101%, 88.97114% 72.5%, 88.47124% 73.21394%, 87.85495% 73.83022%, 87.14102% 74.33013%, 52.5% 94.33013%, 51.7101% 94.69846%, 50.86824% 94.92404%, 50% 95%, 49.13176% 94.92404%, 48.2899% 94.69846%, 47.5% 94.33013%, 12.85898% 74.33013%, 12.14505% 73.83022%, 11.52876% 73.21394%, 11.02886% 72.5%, 10.66052% 71.7101%, 10.43495% 70.86824%, 10.35898% 70%, 10.35898% 30%, 10.43495% 29.13176%, 10.66052% 28.2899%, 11.02886% 27.5%, 11.52876% 26.78606%, 12.14505% 26.16978%, 12.85898% 25.66987%);
+    clip-path: polygon(47.5% 5.66987%, 48.2899% 5.30154%, 49.13176% 5.07596%, 50% 5%, 50.86824% 5.07596%, 51.7101% 5.30154%, 52.5% 5.66987%, 87.14102% 25.66987%, 87.85495% 26.16978%, 88.47124% 26.78606%, 88.97114% 27.5%, 89.33948% 28.2899%, 89.56505% 29.13176%, 89.64102% 30%, 89.64102% 70%, 89.56505% 70.86824%, 89.33948% 71.7101%, 88.97114% 72.5%, 88.47124% 73.21394%, 87.85495% 73.83022%, 87.14102% 74.33013%, 52.5% 94.33013%, 51.7101% 94.69846%, 50.86824% 94.92404%, 50% 95%, 49.13176% 94.92404%, 48.2899% 94.69846%, 47.5% 94.33013%, 12.85898% 74.33013%, 12.14505% 73.83022%, 11.52876% 73.21394%, 11.02886% 72.5%, 10.66052% 71.7101%, 10.43495% 70.86824%, 10.35898% 70%, 10.35898% 30%, 10.43495% 29.13176%, 10.66052% 28.2899%, 11.02886% 27.5%, 11.52876% 26.78606%, 12.14505% 26.16978%, 12.85898% 25.66987%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

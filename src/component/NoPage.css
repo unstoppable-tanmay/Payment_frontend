@@ -1,0 +1,22 @@
+.no_page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.no_page_content{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.errorimg{
+    width: 40rem;
+    height: 40rem;
+}
+.no_page_content h3{
+    font-size: 3rem;
+    color: var(--text-color);
+}

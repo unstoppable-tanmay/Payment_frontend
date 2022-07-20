@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.About{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_container{
+    font-size: 2rem;
+    width: 80rem;
+    text-align: center;
+    position: relative;
+}
+.about_container::before{
+    font-family: 'Poppins', sans-serif;
+    content: "❝";
+    font-size: 20rem;
+    position: absolute;
+    top: -10rem;
+    left: -10rem;
+}
+.about_container::after{
+    font-family: 'Poppins', sans-serif;
+    content: "❞";
+    font-size: 20rem;
+    position: absolute;
+    bottom: -20rem;
+    right: -7rem;
+}
