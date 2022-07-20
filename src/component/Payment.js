@@ -1,8 +1,7 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './Payment.css'
 
 const Payment = () => {
-    const [isabout, setisabout] = useState(false);
 
     const getdata = () => {
         const api = [
@@ -96,7 +95,7 @@ const Payment = () => {
             <div className="payee_container">
                 {getapi.map((item)=>{
                     return (<>
-                        <div className="payee_box">
+                        <div className="payee_box" key={item.PayeeId}>
                             <div className="payee_image">
                                 <img className="payee_image_img" src={item.Image} alt="" />
                             </div>
